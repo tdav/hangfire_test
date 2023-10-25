@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AsbtCore.UtilsV2" Version="2.0.83" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.13" />
+		<PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
+		<PackageReference Include="Serilog.Settings.Configuration" Version="7.0.1" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+
+		<PackageReference Include="Hangfire.Core" Version="1.8.*" />
+		<PackageReference Include="Hangfire.MemoryStorage" Version="1.8.*" />
+		<PackageReference Include="Hangfire.AspNetCore" Version="1.8.*" />
+	</ItemGroup>
+	
+</Project>
